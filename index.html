@@ -101,6 +101,10 @@
 @media screen and (min-width:651px){.presentation #web-erp .deck{margin-bottom:17px}.presentation .cloud-compare{margin-top:0}.presentation .cloud-compare table{font-size:13px}.presentation .cloud-compare th,.presentation .cloud-compare td{padding:8px 14px;line-height:1.23}.presentation .cloud-compare td span{font-size:12px}.presentation .cloud-conclusion{margin-top:17px;padding:15px 18px;font-size:14px}}
 @media screen and (max-width:650px){body:not(.presentation) .cloud-compare{overflow:auto}body:not(.presentation) .cloud-compare table{font-size:10px;min-width:720px}body:not(.presentation) .cloud-conclusion{display:block}body:not(.presentation) .cloud-conclusion strong{display:block;margin-bottom:6px}}
 
+.recruitment-layout{display:grid;grid-template-columns:240px 1fr 1fr;gap:28px;margin-top:20px}.recruitment-summary{min-height:410px;background:var(--red);color:#fff;padding:28px 26px;display:flex;flex-direction:column}.recruitment-summary small{font-size:9px;font-weight:800;color:#ffd4d8;letter-spacing:.08em}.recruitment-summary>span{font-size:13px;font-weight:800;margin-top:38px}.recruitment-summary>strong{font-size:54px;line-height:1;margin-top:10px;padding-bottom:29px;border-bottom:2px solid rgba(255,255,255,.35)}.recruitment-summary h3{font-size:26px;line-height:1.35;margin:27px 0 0;color:#fff}.recruitment-summary p{font-size:10px;font-weight:800;line-height:1.55;color:#ffd4d8;margin:auto 0 0}.hire-qualification h3{font-size:21px;margin:2px 0 0;padding-bottom:12px;border-bottom:3px solid var(--red)}.hire-list{list-style:none;padding:0;margin:0}.hire-list li{display:grid;grid-template-columns:30px 1fr;gap:8px;align-items:center;min-height:43px;padding:6px 0;border-bottom:1px solid var(--line);font-size:11px;font-weight:650;line-height:1.35}.hire-list li b{font-size:9px;color:var(--red)}.hire-list li span{display:block}.hire-list li small{display:block;font-size:10px;font-weight:500;color:var(--muted);margin-top:2px}.preferred-list li{min-height:52px}.hire-focus{display:flex;gap:9px;align-items:flex-start;margin-top:10px;padding:10px 12px;background:var(--pink);color:var(--red);font-size:9px;line-height:1.4}.hire-focus strong{flex:none}.hire-focus span{font-weight:750}
+@media screen and (min-width:651px){.presentation .recruitment-layout{grid-template-columns:260px 1fr 1fr;gap:30px;margin-top:20px}.presentation .recruitment-summary{min-height:430px;padding:31px 29px}.presentation .recruitment-summary small{font-size:11px}.presentation .recruitment-summary>span{font-size:16px}.presentation .recruitment-summary>strong{font-size:64px}.presentation .recruitment-summary h3{font-size:31px}.presentation .recruitment-summary p{font-size:12px}.presentation .hire-qualification h3{font-size:26px}.presentation .hire-list li{grid-template-columns:34px 1fr;min-height:45px;font-size:14px}.presentation .hire-list li b{font-size:10px}.presentation .hire-list li small{font-size:12px}.presentation .preferred-list li{min-height:54px}.presentation .hire-focus{font-size:11px;padding:11px 13px}}
+@media screen and (max-width:650px){body:not(.presentation) .recruitment-layout{grid-template-columns:1fr}body:not(.presentation) .recruitment-summary{min-height:360px}body:not(.presentation) .hire-list li{font-size:12px}}
+
 </style>
 </head>
 <body>
@@ -122,7 +126,8 @@
   <a class="nav-link" href="#usecases"><span>06</span>ERP AX 업무 활용</a>
   <a class="nav-link" href="#summary"><span>07</span>핵심 추진 방향</a>
   <a class="nav-link" href="#schedule"><span>08</span>예상 개발기간</a>
-  <a class="nav-link" href="#closing"><span>09</span>최종 제안</a>
+  <a class="nav-link" href="#recruitment"><span>09</span>개발자 채용 계획</a>
+  <a class="nav-link" href="#closing"><span>10</span>최종 제안</a>
  </nav>
  <div class="sidebar-bottom"><strong><span class="status-dot"></span>경영진 보고용 기획안</strong><p>Web ERP + AI Agent<br>AI 최적화 스펙 자동화<br>2026</p></div>
 </aside>
@@ -242,8 +247,37 @@
  <div class="footer-line"><b>BANGGOLF AX</b><span>확정 일정이 아닌 내부 계획치</span><span>08</span></div>
 </section>
 
+<section class="sheet" id="recruitment" aria-labelledby="recruitment-title">
+ <div class="sheet-head"><p class="eyebrow">DEVELOPER RECRUITMENT</p><span class="section-index">09 / HIRING PLAN</span></div>
+ <p class="topic-prefix">채용 계획</p>
+ <h2 id="recruitment-title">웹 기반 ERP 개발자 채용</h2>
+ <p class="deck">Web ERP 전환과 AWS·API·AI 연계를 함께 설계하고 구현할 실무 개발자를 채용합니다.</p>
+ <div class="recruitment-layout">
+  <aside class="recruitment-summary"><small>RECRUITMENT</small><span>모집인원</span><strong>1명</strong><h3>웹 기반<br>ERP 개발자</h3><p>FULL-STACK<br>ERP PROCESS<br>AWS CLOUD · API<br>AI CODING</p></aside>
+  <article class="hire-qualification"><h3>필수 자격조건</h3><ol class="hire-list required-list">
+   <li><b>01</b><span>웹 기반 ERP 또는 기업 업무시스템 개발 경험</span></li>
+   <li><b>02</b><span>프론트엔드·백엔드 웹 개발 가능</span></li>
+   <li><b>03</b><span>ERP 업무 프로세스 이해<small>주문·판매·재고·생산·회계 등</small></span></li>
+   <li><b>04</b><span>관계형 DB 설계 및 SQL 활용<small>MySQL·PostgreSQL·MSSQL 등</small></span></li>
+   <li><b>05</b><span>AWS 클라우드 구축 및 운영 경험</span></li>
+   <li><b>06</b><span>REST API 및 외부 시스템 연동 경험</span></li>
+   <li><b>07</b><span>Git 기반 소스·버전관리 가능</span></li>
+   <li><b>08</b><span>AI 코딩 도구 활용<small>ChatGPT·Claude·Codex 등</small></span></li>
+  </ol></article>
+  <article class="hire-qualification preferred"><h3>우대조건</h3><ol class="hire-list preferred-list">
+   <li><b>01</b><span>기존 Windows ERP 분석·유지보수 경험</span></li>
+   <li><b>02</b><span>C# / .NET 개발 경험</span></li>
+   <li><b>03</b><span>MSSQL에서 MySQL·PostgreSQL로<small>DB 마이그레이션한 경험</small></span></li>
+   <li><b>04</b><span>AWS EC2·RDS·S3·IAM 실무 경험</span></li>
+   <li><b>05</b><span>ERP 신규 구축 또는<small>레거시 ERP 웹 전환 경험</small></span></li>
+   <li><b>06</b><span>AI API를 활용한<small>ERP·업무 자동화 개발 경험</small></span></li>
+  </ol><div class="hire-focus"><strong>핵심 평가 기준</strong><span>Web·Backend·DB·Cloud·AI 코딩 도구를 함께 다룰 수 있는 실무 역량</span></div></article>
+ </div>
+ <div class="footer-line"><b>BANGGOLF AX</b><span>Web ERP 개발자 채용 계획</span><span>09</span></div>
+</section>
+
 <section class="sheet closing" id="closing" aria-labelledby="closing-title">
- <div class="sheet-head"><p class="eyebrow">THE NEXT WAY OF WORKING</p><span class="section-index">09 / FINAL PROPOSAL</span></div>
+ <div class="sheet-head"><p class="eyebrow">THE NEXT WAY OF WORKING</p><span class="section-index">10 / FINAL PROPOSAL</span></div>
  <h2 id="closing-title">ERP를 사용하는 직원에서,<br><em>AI에게 업무를 지시하고<br>결과를 검토하는 직원으로.</em></h2>
  <p>ERP를 다시 만드는 것을 넘어,<br>AI 시대에 맞게 회사의 업무환경을 다시 설계합니다.</p>
  <div class="cover-path" style="margin-top:35px"><span>Windows ERP</span><span>→</span><span>Web ERP · API</span><span>→</span><span>AI Agent</span><span>→</span><span>AX</span></div>
